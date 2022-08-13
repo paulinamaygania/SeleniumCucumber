@@ -23,18 +23,4 @@ public class Hooks {
         PropertiesReader propertiesReader = new PropertiesReader();
         driver.get(propertiesReader.getValue("url"));
     }
-
-//    @After
-//    public void embedScreenshot(Scenario scenario) {
-//
-//        if(scenario.isFailed()) {
-//            try {
-//                byte[] screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
-//                scenario.embed(screenshot, "image/png");
-//            } catch (WebDriverException noSupportScreenshot) {
-//                System.err.println(noSupportScreenshot.getMessage());
-//            }
-//        }
-//        driver.quit();
-//    }
 }

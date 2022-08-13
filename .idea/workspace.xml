@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32dde8e9-038a-4ee6-8869-3c597991d4ec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="32dde8e9-038a-4ee6-8869-3c597991d4ec" name="Changes" comment="Add UI automation test scripts of Login, Landing, and Module Page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/ModulePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/ModulePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LandingPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/ModulePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/ModulePageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/PropertiesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/PropertiesReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/LandingPageTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/LandingPageTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/LoginPageTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/LoginPageTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/ModulePageTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ModulePageTest.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +137,6 @@
         <item itemvalue="Cucumber Java.Scenario: User should be able to access another module" />
         <item itemvalue="Cucumber Java.Scenario: User should be able to navigate to next lesson on chapter page" />
         <item itemvalue="Cucumber Java.Feature: ModulePageTest" />
-        <item itemvalue="Cucumber Java.Scenario: Login fail alert should be displayed when user input invalid field on login page" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +149,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660315061369</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add UI automation test scripts of Login, Landing, and Module Page">
+      <created>1660372762215</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660372762215</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,5 +169,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add UI automation test scripts of Login, Landing, and Module Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add UI automation test scripts of Login, Landing, and Module Page" />
   </component>
 </project>

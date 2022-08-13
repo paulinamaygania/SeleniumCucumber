@@ -18,12 +18,6 @@ public class LandingPageSteps {
 
     @Given("Go to Stockbit page")
     public void go_to_stockbit_page(){
-//        String chromeDriverPath = "/Users/paulinamaygania/Documents/Automation/chromedriver";
-//        System.setProperty("webdriver.chrome.driver", chromeDriverPath);
-//        driver = new ChromeDriver();
-//        driver.manage().window().maximize();
-//        Thread.sleep(1000);
-//        driver.get("https://stockbit.com");
         System.out.println("Open Stockbit Page successfully");
     }
 

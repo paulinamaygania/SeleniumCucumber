@@ -23,12 +23,6 @@ public class LoginPageSteps {
 
     @Given("Go to Stockbit URL")
     public void go_to_stockbit_url(){
-//        String chromeDriverPath = "/Users/paulinamaygania/Documents/Automation/chromedriver";
-//        System.setProperty("webdriver.chrome.driver", chromeDriverPath);
-//        driver = new ChromeDriver();
-//        driver.manage().window().maximize();
-//        Thread.sleep(1000);
-//        driver.get("https://stockbit.com/");
         System.out.println("Open Stockbit Page successfully");
     }
 
@@ -40,21 +34,7 @@ public class LoginPageSteps {
     }
 
     @Then("Verify login page is displayed properly")
-    public void verify_login_page_is_displayed_properly() throws InterruptedException{
-//        boolean btnGoogle = driver.findElement(By.xpath("//button[@id='google-login-button']")).isDisplayed();
-//        Assert.assertTrue(btnGoogle);
-//        boolean btnFacebook = driver.findElement(By.xpath("//button[@id='facebook-login-button']")).isDisplayed();
-//        Assert.assertTrue(btnFacebook);
-//        boolean tfInput = driver.findElement(By.xpath("//input[@id='username']")).isDisplayed();
-//        Assert.assertTrue(tfInput);
-//        boolean tfPassword = driver.findElement(By.xpath("//input[@id='password']")).isDisplayed();
-//        Assert.assertTrue(tfPassword);
-//        boolean txaForgotPassword = driver.findElement(By.xpath("//p[@class='sc-crzoAE jcloeo']")).isDisplayed();
-//        Assert.assertTrue(txaForgotPassword);
-//        boolean btnLogin = driver.findElement(By.xpath("//button[@id='email-login-button']")).isDisplayed();
-//        Assert.assertTrue(btnLogin);
-//        boolean txaSignUp = driver.findElement(By.xpath("//p[@class='sc-crzoAE fPGNjl']")).isDisplayed();
-//        Assert.assertTrue(txaSignUp);
+    public void verify_login_page_is_displayed_properly(){
         LoginPage loginPage = new LoginPage(driver, wait);
         loginPage.loginPageIsDisplayed();
     }
@@ -64,16 +44,6 @@ public class LoginPageSteps {
         LoginPage loginPage = new LoginPage(driver, wait);
         loginPage.inputUsername();
         loginPage.inputPassword();
-//        WebElement tfInput = driver.findElement(By.xpath("//input[@id='username']"));
-//        tfInput.click();
-//        tfInput.sendKeys("stockbitautomationtest@gmail.com");
-//        WebElement tfPassword = driver.findElement(By.xpath("//input[@id='password']"));
-//        tfPassword.click();
-//        tfPassword.sendKeys("password");
-//        WebElement btnLogin = driver.findElement(By.xpath("//button[@id='email-login-button']"));
-//        btnLogin.click();
-//        Thread.sleep(2000);
-
     }
 
     @And ("Click on login button")

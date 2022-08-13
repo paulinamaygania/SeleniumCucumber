@@ -17,9 +17,4 @@ public class PropertiesReader {
         return properties.getProperty(key);
     }
 
-    public Long getTimeout() throws Exception {
-        String timeout = PropertiesReader.getValue("timeout");
-        return Long.parseLong(timeout);
-    }
-
 }
